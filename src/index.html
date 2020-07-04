@@ -36,27 +36,14 @@
 <script src="https://cdn.bootcss.com/Director/1.2.8/director.min.js"></script>
 <script src="https://yc.yonyoucloud.com/cpu-cdn/js/uui/iuap-design-3.1.23/js/u.js"></script>
 <script src="https://songzxdev.github.io/zTree_v3/js/jquery.ztree.core.min.js"></script>
+<script src="https://songzxdev.github.io/playgame/app/mocklefttree.js"></script>
 <script>
   // eslint-disable-next-line no-unused-vars
   let zTreeObj;
   // zTree 的参数配置，深入使用请参考 API 文档（setting 配置详解）
   const setting = {};
   // zTree 的数据属性，深入使用请参考 API 文档（zTreeNode 节点数据详解）
-  const zNodes = [
-    {
-      name: 'test1',
-      open: true,
-      children: [
-        {name: 'test1_1', url: '#list', target: '_self'}, {name: 'test1_2', url: '#index', target: '_self'}
-      ]
-    },
-    {
-      name: 'test2',
-      open: true,
-      children: [
-        {name: 'test2_1'}, {name: 'test2_2'}]
-    }
-  ];
+  const zNodes = LEFT_MENU_TREE;
   $(document).ready(function () {
     zTreeObj = $.fn.zTree.init($('#treeDemo'), setting, zNodes);
   });
