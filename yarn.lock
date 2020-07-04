@@ -3301,13 +3301,24 @@ kind-of@^4.0.0:
   dependencies:
     is-buffer "^1.1.5"
 
-knockout@3.4.2, knockout@^3.4.2:
+knockout-dragdrop@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.npm.taobao.org/knockout-dragdrop/download/knockout-dragdrop-2.6.1.tgz#062408658eeb1b366d5f3deba9afaf04d6d2b52e"
+  integrity sha1-BiQIZY7rGzZtXz3rqa+vBNbStS4=
+
+knockout@^3.4.2:
   version "3.4.2"
   resolved "https://registry.yarnpkg.com/knockout/-/knockout-3.4.2.tgz#e87958de77ad1e936f7ce645bab8b5d7c456d937"
 
-ko-bindinghandler@^1.1.3:
-  version "1.1.4"
-  resolved "https://registry.yarnpkg.com/ko-bindinghandler/-/ko-bindinghandler-1.1.4.tgz#a26aa7b562d83d254d1865999b8c74e9c12923c3"
+knockout@^3.5.1:
+  version "3.5.1"
+  resolved "https://registry.npm.taobao.org/knockout/download/knockout-3.5.1.tgz#62c81e81843bea2008fd23c575edd9ca978e75cf"
+  integrity sha1-YsgegYQ76iAI/SPFde3ZypeOdc8=
+
+ko-bindinghandler@^1.1.10:
+  version "1.1.12"
+  resolved "https://registry.npm.taobao.org/ko-bindinghandler/download/ko-bindinghandler-1.1.12.tgz#ebf7fa0390aaa65b972b9546440d191683a102b5"
+  integrity sha1-6/f6A5CqpluXK5VGRA0ZFoOhArU=
   dependencies:
     knockout "^3.4.2"
     lodash "^4.17.4"
@@ -3434,6 +3445,11 @@ lodash.uniq@^4.5.0:
 lodash@^4.0.0, lodash@^4.14.0, lodash@^4.17.2, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.3.0, lodash@^4.6.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
+
+lodash@^4.17.10, lodash@^4.17.15:
+  version "4.17.15"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
 
 loglevel@^1.4.1:
   version "1.6.0"
@@ -5900,27 +5916,30 @@ yargs@~3.10.0:
     decamelize "^1.0.0"
     window-size "0.1.0"
 
-ycloud-lifecycle@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/ycloud-lifecycle/-/ycloud-lifecycle-1.0.2.tgz#0f0701385792cff8ea81b7ef048cbe4187123b6c"
+ycloud-lifecycle@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.npm.taobao.org/ycloud-lifecycle/download/ycloud-lifecycle-1.0.3.tgz#06c0c0006b4d7d793aee78dfa9e53bf5794387f5"
+  integrity sha1-BsDAAGtNfXk67njfqeU79XlDh/U=
   dependencies:
     eventemitter2 "^5.0.0"
 
-ycloud-refer@^1.1.37:
-  version "1.1.37"
-  resolved "https://registry.yarnpkg.com/ycloud-refer/-/ycloud-refer-1.1.37.tgz#6df29425a285b02c42afc83c351001cacd65a1f6"
+ycloud-refer@^1.2.26:
+  version "1.4.8"
+  resolved "https://registry.npm.taobao.org/ycloud-refer/download/ycloud-refer-1.4.8.tgz#ddbf35324a66a4e4021355bbef5e5335028ac51a"
+  integrity sha1-3b81MkpmpOQCE1W7715TNQKKxRo=
   dependencies:
-    knockout "^3.4.2"
-    lodash "^4.17.4"
+    knockout "^3.5.1"
+    lodash "^4.17.15"
 
-ycloud@^1.5.49:
-  version "1.5.49"
-  resolved "https://registry.yarnpkg.com/ycloud/-/ycloud-1.5.49.tgz#f96288c5f9d726c77ee1c34c183d8d4a514ab4c8"
+ycloud@^2.7.12:
+  version "2.10.13"
+  resolved "https://registry.npm.taobao.org/ycloud/download/ycloud-2.10.13.tgz#31c2be5ece5766b3dbf976ee951f7e62ae92e825"
+  integrity sha1-McK+Xs5XZrPb+XbulR9+Yq6S6CU=
   dependencies:
     async-validator "^1.8.1"
-    knockout "3.4.2"
-    ko-bindinghandler "^1.1.3"
-    lodash "^4.17.4"
+    knockout-dragdrop "^2.6.1"
+    ko-bindinghandler "^1.1.10"
+    lodash "^4.17.10"
     popper.js "^1.14.1"
     tooltip.js "^1.2.0"
 

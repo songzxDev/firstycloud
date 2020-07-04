@@ -8,7 +8,7 @@ function getCurrentUser () {
     $.ajax({
       url: '/yuncai/ebvplogin',
       type: 'get',
-      async: false,
+      async: true,
       success: function (data) {
         user = data.user
         localStorage.setItem('user', data)
